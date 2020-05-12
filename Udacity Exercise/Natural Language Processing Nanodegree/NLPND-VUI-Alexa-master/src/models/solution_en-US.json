@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ai history",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "GetNewFactIntent a fact",
+                        "GetNewFactIntent tell me a fact",
+                        "GetNewFactIntent give me a fact",
+                        "GetNewFactIntent give me something",
+                        "GetNewFactIntent get a fact",
+                        "GetNewFactIntent get me an interesting fact",
+                        "GetNewFactIntent get me an awesome fact",
+                        "GetNewFactIntent get a new fact",
+                        "GetNewFactIntent get an awesome fact",
+                        "GetNewFactIntent get something fun",
+                        "GetNewFactIntent get something interesting",
+                        "GetNewFactIntent tell something fun",
+                        "GetNewFactIntent say something fun",
+                        "GetNewFactIntent say something interesting",
+                        "GetNewFactIntent say interesting thing",
+                        "GetNewFactIntent say new thing"
+                    ]
+                },
+                {
+                    "name": "GetNewYearFactIntent",
+                    "slots": [
+                        {
+                            "name": "FACT_YEAR",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "GetNewYearFactIntent give me an artificial intelligence fact from {FACT_YEAR}",
+                        "GetNewYearFactIntent what can you tell me about an artificial intelligence in {FACT_YEAR}",
+                        "GetNewYearFactIntent what happened in artificial intelligence in {FACT_YEAR}",
+                        "GetNewYearFactIntent tell me something about an artificial intelligence fact in {FACT_YEAR}",
+                        "GetNewYearFactIntent tell me some artificial intelligence information from {FACT_YEAR}",
+                        "GetNewYearFactIntent tell me an artificial intelligence fact about {FACT_YEAR}",
+                        "GetNewYearFactIntent give me an artificial intelligence trivia from {FACT_YEAR}",
+                        "GetNewYearFactIntent tell me an artificial intelligence trivia about {FACT_YEAR}",
+                        "GetNewYearFactIntent what can you give me about an artificial intelligence from {FACT_YEAR}",
+                        "GetNewYearFactIntent tell me some history in artificial intelligence from {FACT_YEAR}",
+                        "GetNewYearFactIntent give me some history in artificial intelligence from {FACT_YEAR}",
+                        "GetNewYearFactIntent fact from an artificial intelligence in {FACT_YEAR}",
+                        "GetNewYearFactIntent fact about an artificial intelligence in {FACT_YEAR}",
+                        "GetNewYearFactIntent trivia about an artificial intelligence in {FACT_YEAR}",
+                        "GetNewYearFactIntent what have you got for me from an artificial intelligence in {FACT_YEAR}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
